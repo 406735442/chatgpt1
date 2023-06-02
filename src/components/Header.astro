@@ -1,0 +1,23 @@
+---
+import { model } from '../utils/openAI'
+import Logo from './Logo.astro'
+import Themetoggle from './Themetoggle.astro'
+---
+
+<header>
+  <div class="fb items-center">
+    <div style="margin: auto;">
+      <Logo />
+    </div>
+    <!-- <Themetoggle /> -->
+  </div>
+  <div class="fi mt-2">
+    <span style="  margin: 0 auto;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 800;
+    ">青春健康问答系统</span>
+    <!-- <span class="gpt-subtitle">Demo</span> -->
+  </div>
+  <!-- <p mt-1 op-60>Based on OpenAI API ({model}).</p> -->
+</header>
